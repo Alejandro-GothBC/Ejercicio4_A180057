@@ -71,6 +71,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calcular.cs" />
     <Compile Include="CalcularWebService.asmx.cs">
       <DependentUpon>CalcularWebService.asmx</DependentUpon>
       <SubType>Component</SubType>
