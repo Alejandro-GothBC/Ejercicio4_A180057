@@ -17,13 +17,6 @@ namespace CalcularAreas
     // [System.Web.Script.Services.ScriptService]
     public class CalcularWebService : System.Web.Services.WebService
     {
-
-        [WebMethod]
-        public string HelloWorld()
-        {
-            return "Hola a todos";
-        }
-
         /// <summary>
         /// Método que solicita la logitud del lado de un cuadrado y devuelve su área
         /// </summary>
